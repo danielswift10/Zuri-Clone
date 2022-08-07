@@ -345,9 +345,7 @@ header{
 .backend-dev:hover,
 .devops-engineers:hover,
 .frontend-dev:hover{
-    transform: translateY(-17px);
-    transition: transform .6s ease;
-    -webkit-transform:.3s ease;
+    transform: translateY(-15px);
 }
 
 .backend-dev{
@@ -379,6 +377,8 @@ header{
     box-shadow: 0 8px 30px hsla(0,0%,48%,.16);
     display: grid;
     align-items: center;
+    transition: .3s linear;
+    cursor: pointer;
 }
 
 .companies{
@@ -419,9 +419,7 @@ header{
 .microsoft:hover,
 .flutterwave:hover,
 .career-transitioners:hover{
-    transform: translateY(-17px);
-    transition: transform .6s ease;
-    -webkit-transform:.3s ease;
+    transform: translateY(-15px);
 }
 
 .github,
@@ -440,6 +438,8 @@ header{
     background: #fff;
     border-radius: 8px;
     box-shadow: 0 8px 30px hsla(0,0%,48%,.16);
+    transition: .3s linear;
+    cursor: pointer;
 }
 
 .reskill-americans{
