@@ -1186,7 +1186,7 @@ body{
     box-shadow: 0 31px 60px rgba(231,51,43,.2);
     border-radius: 65px;
     background-color: #1b1a20;
-    background-image: url("/images-industry/hour.png");
+    background-image: url("../images-industry/hour.png");
     background-repeat: no-repeat;
     background-position: right 10.3% bottom 10.3%;
     background-size: 22%;
@@ -1198,7 +1198,7 @@ body{
     box-shadow: 0 31px 60px rgba(231,51,43,.2);
     border-radius: 65px;
     background-color: #1b1a20;
-    background-image: url("/images-industry/time.png");
+    background-image: url("../images-industry/time.png");
     background-repeat: no-repeat;
     background-position: right 10.3% bottom 10.3%;
     background-size: 22%;
