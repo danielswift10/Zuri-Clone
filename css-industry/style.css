@@ -1271,7 +1271,8 @@ main{
 
 .get-started{
     position: relative;
-    margin: 0px 20px 30px 20px;
+    margin: 0 20px 0 20px;
+    padding-bottom: 30px;
     border: 1px solid red;
     border-radius: 20px;
     background-color: #e7332b;
@@ -1320,8 +1321,9 @@ main{
 }
 
 .footer{
-    margin: 80px 20px 30px 20px;
+    padding: 80px 20px 30px 20px;
     text-align: center;
+    background: rgb(255, 253, 245);
 }
 
 .footer-container{
@@ -1750,7 +1752,8 @@ main{
     }
 
     .get-started{
-        margin: 0px 35px 30px 35px;
+        margin: 0px 35px 0px 35px;
+        padding-bottom: 30px;
         background-position: right top, top 20% left 15%, left bottom, right bottom;
         background-size: 25%, 14%, 26%, 17% 24%;
     }
@@ -1765,7 +1768,8 @@ main{
     }
 
     .footer{
-        margin: 80px 35px 30px 35px;
+        padding: 80px 35px 30px 35px;
+        background: rgb(255, 253, 245);
     }
 
     .footer-container{
@@ -2015,8 +2019,9 @@ main{
     }
 
      .get-started{
-        margin: 80px 50px 30px 50px;
+        margin: 80px 50px 0px 50px;
         padding: 80px 130px;
+         padding-bottom: 30px;
         background-position: right top, top 30% left 12%, left bottom, right bottom;
         background-size: 12%, 14%, 12%, 12% 24%;
     }
@@ -2035,7 +2040,8 @@ main{
     }
 
     .footer{
-        margin: 80px 50px 30px 50px;
+        padding: 80px 50px 30px 50px;
+        background: rgb(255, 253, 245);
     }
 
     .footer-container{
@@ -2401,8 +2407,9 @@ main{
     }
 
     .get-started{
-        margin: 80px 60px 30px 60px;
+        margin: 80px 60px 0px 60px;
         padding: 80px 180px;
+        padding-bottom: 30px;
     }
 
     .get-started .circle-1{
@@ -2422,7 +2429,8 @@ main{
     }
 
     .footer{
-        margin: 80px 60px 30px 60px;
+        padding: 80px 60px 30px 60px;
+        background: rgb(255, 253, 245);
     }
 
     .footer-container{
