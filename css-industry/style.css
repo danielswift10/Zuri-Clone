@@ -6,16 +6,16 @@
     font-family: "Graphik";
 }
 
-body{
-    background: rgb(255, 253, 245);
-}
-
 .header-container{
     position: fixed;
     background: rgb(255, 253, 245);
     z-index: 2;
     width: 100%;
     top: 0;
+}
+
+main{
+    background: rgb(255, 253, 245);
 }
 
 .grid{
@@ -106,9 +106,10 @@ body{
 }
 
 .intro-section{
-    margin: 100px 20px 100px 20px;
+    margin: 0 20px 100px 20px;
     text-align: center;
     position: relative;
+    padding-top: 100px;
 }
 
 .intro-section-body{
@@ -1387,7 +1388,8 @@ body{
 
 @media only screen and (min-width: 600px){
     .intro-section{
-        margin: 100px 30px 150px 30px;
+        margin: 0 30px 150px 30px;
+        padding-top: 100px;
     }
 
     .intro-section-container .text-middle .enroll-btn-2 .wire-1{
@@ -1640,7 +1642,8 @@ body{
     }
 
     .intro-section{
-        margin: 100px 40px 150px 40px;
+        margin: 0 40px 150px 40px;
+        padding-top: 100px;
     }
 
     .intro-section-container .text-middle{
@@ -2134,8 +2137,9 @@ body{
     }
 
     .intro-section{
-        margin: 260px 60px 140px 60px;
+        margin: 0 60px 140px 60px;
         padding-bottom: 40px;
+        padding-top: 260px;
     }
     
     .intro-section-container{
