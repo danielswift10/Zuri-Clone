@@ -1269,6 +1269,34 @@ main{
     width: 15px;
 }
 
+.modal-dialog {
+    padding: 0 20px;
+}
+
+.modal-head{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 10fr 1fr;
+    grid-template-rows: 1fr;
+    margin-bottom: 5px;
+}
+
+.modal-head h4{
+    color: #1b1a20;
+    font-size: 21px;
+    font-weight: light;
+}
+
+.modal-body{
+    border: 1px solid #fff;
+    font-size: 17px;
+    color: #585757;
+    font-style: normal;
+    font-weight: 400;
+    border-radius: 10px;
+    padding: 14px;
+}
+
 .get-started{
     position: relative;
     margin: 0 20px 0 20px;
