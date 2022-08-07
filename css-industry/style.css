@@ -281,6 +281,7 @@ body{
     font-size: 18px;
     border-radius: 71px;
     color: #fff;
+    cursor: pointer;
 }
 
 .intro-section-container .text-middle .enroll-btn-2 .male-face{
@@ -411,7 +412,7 @@ body{
 .why-us .card-container .remote{
     grid-area: remote;
     background-color: #e7332b;
-    background-image: url("/images-industry/curve1.png");
+    background-image: url("../images-industry/curve1.png");
 }
 
 .why-us .card-container .remote h1{
@@ -451,25 +452,25 @@ body{
 .why-us .card-container .learning{
     grid-area: learning;
     background-color: #fff;
-    background-image: url("/images-industry/curve3.svg");
+    background-image: url("../images-industry/curve3.svg");
 }
 
 .why-us .card-container .projects{
     grid-area: projects;
     background-color: #fff;
-    background-image: url("/images-industry/curve4.svg");
+    background-image: url("../images-industry/curve4.svg");
 }
 
 .why-us .card-container .friendly{
     grid-area: friendly;
     background-color: #fff;
-    background-image: url("/images-industry/curve5.svg");
+    background-image: url("../images-industry/curve5.svg");
 }
 
 .why-us .card-container .mentorship{
     grid-area: mentorship;
     background-color: #fff;
-    background-image: url("/images-industry/curve6.svg");
+    background-image: url("../images-industry/curve6.svg");
 }
 
 .why-us .card-container .remote,
@@ -485,6 +486,7 @@ body{
     background-position: right top;
     background-size: 32%;
     cursor: pointer;
+    transition: .3s linear;
 }
 
 .why-us .card-container .experience h1,
@@ -534,7 +536,6 @@ body{
 .why-us .card-container .friendly:hover,
 .why-us .card-container .mentorship:hover{
     transform: translateY(-15px);
-    transition: transform .3s linear;
  }
 
  .enroll{
@@ -946,6 +947,7 @@ body{
     font-size: 18px;
     border-radius: 71px;
     color: #fff;
+    cursor: pointer;
 }
 
 .faqs{
@@ -1315,6 +1317,7 @@ body{
     font-size: 18px;
     border-radius: 71px;
     color: #e7332b;
+    cursor: pointer;
     box-shadow: rgb(0 0 0 / 20%) 0px 3px 1px -2px, rgb(0 0 0 / 14%) 0px 2px 2px 0px, rgb(0 0 0 / 12%) 0px 1px 5px 0px;
 }
 
