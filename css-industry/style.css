@@ -445,7 +445,7 @@ body{
 .why-us .card-container .experience{
     grid-area: experience;
     background-color: #fff;
-    background-image: url("/images-industry/curve.svg");
+    background-image: url("../images-industry/curve.svg");
 }
 
 .why-us .card-container .learning{
