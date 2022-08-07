@@ -60,7 +60,7 @@ main{
 .thumb{
     border-radius: 50%;
     background-color: #e7332b;
-    padding: 10px 10px 6px 10px;
+    padding: 10px;
 }
 
 .thumb img{
@@ -106,7 +106,7 @@ main{
 }
 
 .intro-section{
-    margin: 0 20px 100px 20px;
+    margin: 0px 20px 100px 20px;
     text-align: center;
     position: relative;
     padding-top: 100px;
@@ -152,7 +152,7 @@ main{
 @media only screen and (min-width: 407px){
     .intro-section-container .text-middle .line{
         position: absolute;
-        top: 120px;
+        top: 140px;
         right: 20%;
         width: 33%;
     }
@@ -161,7 +161,7 @@ main{
 @media only screen and (min-width: 507px){
     .intro-section-container .text-middle .line{
         position: absolute;
-        top: 95px;
+        top: 115px;
         right: 8%;
         width: 33%;
     }
@@ -170,7 +170,7 @@ main{
 @media only screen and (min-width: 601px){
     .intro-section-container .text-middle .line{
         position: absolute;
-        top: 155px;
+        top: 175px;
         right: 33%;
         width: 23%;
     }
@@ -179,7 +179,7 @@ main{
 @media only screen and (min-width: 677px){
     .intro-section-container .text-middle .line{
         position: absolute;
-        top: 113px;
+        top: 133px;
         right: 33%;
         width: 23%;
     }
@@ -188,7 +188,7 @@ main{
 @media only screen and (min-width: 701px){
     .intro-section-container .text-middle .line{
         position: absolute;
-        top: 113px;
+        top: 128px;
         right: 5%;
         width: 33%;
     }
@@ -197,7 +197,7 @@ main{
 @media only screen and (min-width: 931px){
     .intro-section-container .text-middle .line{
         position: absolute;
-        top: 139px;
+        top: 159px;
         right: 5%;
         width: 33%;
     }
@@ -206,7 +206,7 @@ main{
 @media only screen and (min-width: 1201px){
     .intro-section-container .text-middle .line{
         position: absolute;
-        top: 249px;
+        top: 262px;
         right: 7%;
         width: 32%;
     }
@@ -215,8 +215,8 @@ main{
 @media only screen and (min-width: 1235px){
     .intro-section-container .text-middle .line{
         position: absolute;
-        top: 249px;
-        right: 34%;
+        top: 259px;
+        right: 40%;
         width: 22%;
     }
 }
@@ -224,7 +224,7 @@ main{
 @media only screen and (min-width: 1256px){
     .intro-section-container .text-middle .line{
         position: absolute;
-        top: 189px;
+        top: 209px;
         right: 6%;
         width: 32%;
     }
@@ -233,7 +233,7 @@ main{
 @media only screen and (min-width: 1281px){
     .intro-section-container .text-middle .line{
         position: absolute;
-        top: 199px;
+        top: 219px;
         right: 17%;
         width: 26%;
     }
@@ -282,7 +282,6 @@ main{
     font-size: 18px;
     border-radius: 71px;
     color: #fff;
-    cursor: pointer;
 }
 
 .intro-section-container .text-middle .enroll-btn-2 .male-face{
@@ -298,7 +297,7 @@ main{
 
 .about{
     margin: 100px 20px 30px 20px;
-    text-align: center;    
+    text-align: center;
 }
 
 .about-container{
@@ -413,7 +412,7 @@ main{
 .why-us .card-container .remote{
     grid-area: remote;
     background-color: #e7332b;
-    background-image: url("../images-industry/curve1.png");
+    background-image: url("/images-industry/curve1.png");
 }
 
 .why-us .card-container .remote h1{
@@ -453,25 +452,25 @@ main{
 .why-us .card-container .learning{
     grid-area: learning;
     background-color: #fff;
-    background-image: url("../images-industry/curve3.svg");
+    background-image: url("/images-industry/curve3.svg");
 }
 
 .why-us .card-container .projects{
     grid-area: projects;
     background-color: #fff;
-    background-image: url("../images-industry/curve4.svg");
+    background-image: url("/images-industry/curve4.svg");
 }
 
 .why-us .card-container .friendly{
     grid-area: friendly;
     background-color: #fff;
-    background-image: url("../images-industry/curve5.svg");
+    background-image: url("/images-industry/curve5.svg");
 }
 
 .why-us .card-container .mentorship{
     grid-area: mentorship;
     background-color: #fff;
-    background-image: url("../images-industry/curve6.svg");
+    background-image: url("/images-industry/curve6.svg");
 }
 
 .why-us .card-container .remote,
@@ -608,8 +607,11 @@ main{
     border-radius: 71px;
     margin: 30px 0 40px;
     color: #e7332b;
-    cursor: pointer;
     box-shadow: rgb(0 0 0 / 20%) 0px 3px 1px -2px, rgb(0 0 0 / 14%) 0px 2px 2px 0px, rgb(0 0 0 / 12%) 0px 1px 5px 0px;
+}
+
+.enroll-container .enroll-text .enroll-btn-3:hover{
+    box-shadow: rgb(0 0 0 / 20%) 0px 2px 4px -1px, rgb(0 0 0 / 14%) 0px 4px 5px 0px, rgb(0 0 0 / 12%) 0px 1px 10px 0px;
 }
 
 .enroll-container .enroll-image{
@@ -945,7 +947,6 @@ main{
     font-size: 18px;
     border-radius: 71px;
     color: #fff;
-    cursor: pointer;
 }
 
 .faqs{
@@ -1007,6 +1008,7 @@ main{
     line-height: 130%;
     color: #333;
     cursor: pointer;
+    transition: .3s ease;
 }
 
 .faq-body .faq-accordion .faq .faq-1-question::before,
@@ -1022,7 +1024,6 @@ main{
     font-size: 1.7rem;
     font-weight: 400;
     line-height: 130%;
-    transition: .3s ease;
     color: black;
 }
 
@@ -1036,6 +1037,7 @@ main{
     -ms-transform: rotate(180deg);
     top: -10px;
     transform: rotate(180deg);
+    /* transition: .3s ease; */
     
 }
 
@@ -1089,6 +1091,10 @@ main{
     grid-area: tweet;
 }
 
+.faq-body .faq-bottom .tweet a{
+    text-decoration: none;
+}
+
 .faq-body .faq-bottom .tweet a .btn-tweet{
     display: flex;
     align-items: center;
@@ -1103,6 +1109,7 @@ main{
     color: #fff;
     margin: 0 auto;
     cursor: pointer;
+    
 }
 
 .structure{
@@ -1235,6 +1242,7 @@ main{
     font-style: normal;
     letter-spacing: .01em;
     padding-bottom: 18px;
+    padding-left: 0;
 }
 
 .structure-card-container .full-time .full-time-body ul li,
@@ -1245,7 +1253,7 @@ main{
     line-height: 140%;
     color: #fff;
     font-style: normal;
-    letter-spacing: .01em!;
+    letter-spacing: .01em;
     list-style-position: outside;
     margin-left: 18px;
 }
@@ -1261,7 +1269,7 @@ main{
     line-height: 140%;
     color: #fff;
     font-style: normal;
-    letter-spacing: .01em;
+    letter-spacing: .01em!;
     margin-left: 18px;
 }
 
@@ -1299,13 +1307,12 @@ main{
 
 .get-started{
     position: relative;
-    margin: 0 20px 0 20px;
-    padding-bottom: 30px;
+    margin: 0px 20px 0px 20px;
     border: 1px solid red;
     border-radius: 20px;
     background-color: #e7332b;
     padding: 70px;
-    background-image: url("../images-industry/bend1.svg"), url("../images-industry/round.svg"), url("../images-industry/curve2.svg"), url("../images-industry/mains.png");
+    background-image: url("../images-industry/bend1.svg"), url("../images-industry/round.svg"), url("/images-industry/curve2.svg"), url("/images-industry/mains.png");
     background-repeat: no-repeat;
     background-position: right top, top 10% left 15%, left bottom, right bottom;
     background-size: 25%, 21%, 26%, 17% 24%;
@@ -1344,7 +1351,6 @@ main{
     font-size: 18px;
     border-radius: 71px;
     color: #e7332b;
-    cursor: pointer;
     box-shadow: rgb(0 0 0 / 20%) 0px 3px 1px -2px, rgb(0 0 0 / 14%) 0px 2px 2px 0px, rgb(0 0 0 / 12%) 0px 1px 5px 0px;
 }
 
@@ -1352,6 +1358,7 @@ main{
     padding: 80px 20px 30px 20px;
     text-align: center;
     background: rgb(255, 253, 245);
+
 }
 
 .footer-container{
@@ -1375,11 +1382,12 @@ main{
 
 .footer-container .footer-links a{
     padding-right: 5px;
+    text-decoration: none;
 }
 
 .footer-container-1{
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: .7fr .3fr .5fr;
     grid-template-columns: 1fr;
     grid-template-areas: 
     'good'
@@ -1401,6 +1409,7 @@ main{
     line-height: 140%;
     color: #1b1a20;
     letter-spacing: .01em;
+    text-decoration: none;
 }
 
 .footer-container-1 .good{
@@ -1413,7 +1422,7 @@ main{
 
 .footer-container-1 .copyright hr{
     margin-bottom: 16px;
-    border-color: rgba(0, 0, 0, 0.12);
+    border-color: rgba(0, 0, 0, 0.82);
 }
 
 @media only screen and (min-width: 600px){
@@ -1512,9 +1521,8 @@ main{
     }
 
     .get-started{
-        margin: 80px 30px 0px 30px;
+        margin: 80px 30px 30px 30px;
         padding: 80px 130px;
-        padding-bottom: 30px;
     }
 
     .get-started .get-started-body h2{
@@ -1522,7 +1530,7 @@ main{
     }
     
     .footer{
-        padding: 80px 30px 30px 30px;
+        margin: 80px 30px 30px 30px;
     }
 
     .footer-container{
@@ -1673,8 +1681,7 @@ main{
     }
 
     .intro-section{
-        margin: 0 40px 150px 40px;
-        padding-top: 100px;
+        margin: 100px 40px 150px 40px;
     }
 
     .intro-section-container .text-middle{
@@ -1689,8 +1696,8 @@ main{
 
     .intro-section-container .text-middle .enroll-btn-2 .wire-1{
         position: absolute;
-        width: 17%;
-        right: 180px;
+        width: 14%;
+        right: 240px;
         bottom: -140px;
     }
 
@@ -1781,16 +1788,14 @@ main{
     }
 
     .get-started{
-        margin: 0px 35px 0px 35px;
-        padding-bottom: 30px;
+        margin: 0px 35px 30px 35px;
         background-position: right top, top 20% left 15%, left bottom, right bottom;
         background-size: 25%, 14%, 26%, 17% 24%;
     }
 
     .get-started{
-        margin: 80px 30px 0px 30px;
+        margin: 80px 30px 30px 30px;
         padding: 80px 150px;
-        padding-bottom: 30px;
     }
 
     .get-started .get-started-body h2{
@@ -1798,8 +1803,7 @@ main{
     }
 
     .footer{
-        padding: 80px 35px 30px 35px;
-        background: rgb(255, 253, 245);
+        margin: 80px 35px 30px 35px;
     }
 
     .footer-container{
@@ -2049,9 +2053,8 @@ main{
     }
 
      .get-started{
-        margin: 80px 50px 0px 50px;
+        margin: 80px 50px 30px 50px;
         padding: 80px 130px;
-         padding-bottom: 30px;
         background-position: right top, top 30% left 12%, left bottom, right bottom;
         background-size: 12%, 14%, 12%, 12% 24%;
     }
@@ -2070,8 +2073,7 @@ main{
     }
 
     .footer{
-        padding: 80px 50px 30px 50px;
-        background: rgb(255, 253, 245);
+        margin: 80px 50px 30px 50px;
     }
 
     .footer-container{
@@ -2139,12 +2141,12 @@ main{
     .nav-menu .nav-item{
         list-style-type: none;
         display: inline-block;
-        padding: 20px 19px 0;
+        padding: 20px 15px 0;
     }
 
     .nav-menu .nav-item .nav-link{
         font-size: 18px;
-        padding-bottom: 30px;
+        padding-bottom: 0;
         color: #585858;
         font-weight: 400;
         display: block;
@@ -2437,9 +2439,8 @@ main{
     }
 
     .get-started{
-        margin: 80px 60px 0px 60px;
+        margin: 80px 60px 30px 60px;
         padding: 80px 180px;
-        padding-bottom: 30px;
     }
 
     .get-started .circle-1{
@@ -2449,18 +2450,9 @@ main{
         left: 0;
         width: 10%;
     }
-    
-    .get-started .get-started-body p{
-        font-size: 18px;
-    }
-
-    .get-started .get-started-body h2{
-        font-size: 55px;
-    }
 
     .footer{
-        padding: 80px 60px 30px 60px;
-        background: rgb(255, 253, 245);
+        margin: 80px 60px 30px 60px;
     }
 
     .footer-container{
@@ -2472,5 +2464,11 @@ main{
         grid-template-columns: 3.8fr .7fr 1fr;
     }
 
+    .get-started .get-started-body p{
+        font-size: 18px;
+    }
 
+    .get-started .get-started-body h2{
+        font-size: 55px;
+    }
 }
