@@ -2408,6 +2408,14 @@ body{
         left: 0;
         width: 10%;
     }
+    
+    .get-started .get-started-body p{
+        font-size: 18px;
+    }
+
+    .get-started .get-started-body h2{
+        font-size: 55px;
+    }
 
     .footer{
         margin: 80px 60px 30px 60px;
@@ -2422,11 +2430,5 @@ body{
         grid-template-columns: 3.8fr .7fr 1fr;
     }
 
-    .get-started .get-started-body p{
-        font-size: 18px;
-    }
 
-    .get-started .get-started-body h2{
-        font-size: 55px;
-    }
 }
