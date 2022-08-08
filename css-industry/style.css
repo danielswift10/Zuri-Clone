@@ -15,7 +15,7 @@
 }
 
 main{
-    background: rgb(255, 253, 245);
+    background-color: rgb(255, 253, 245);
 }
 
 .grid{
@@ -83,7 +83,7 @@ main{
     cursor: pointer;
     color: #fff;
     font-size: 18px;
-    padding: 12px 20px;
+    padding: 10px 20px;
 }
 
 @media only screen and (min-width: 401px){
@@ -1008,7 +1008,6 @@ main{
     line-height: 130%;
     color: #333;
     cursor: pointer;
-    transition: .3s ease;
 }
 
 .faq-body .faq-accordion .faq .faq-1-question::before,
@@ -1021,9 +1020,10 @@ main{
     top: 10px;
     right: 0;
     transform: translateY(-50%);
-    font-size: 1.7rem;
+    font-size: 1.8rem;
     font-weight: 400;
     line-height: 130%;
+    transition: .355s ease;
     color: black;
 }
 
@@ -1037,7 +1037,7 @@ main{
     -ms-transform: rotate(180deg);
     top: -10px;
     transform: rotate(180deg);
-    /* transition: .3s ease; */
+    transition: .3s ease;
     
 }
 
@@ -1050,7 +1050,6 @@ main{
     height: 0;
     overflow: hidden;
     overflow-y: auto;
-    transition: .4s ease;
 }
 
 .faq-body .faq-accordion .faq.active .faq-1-answer,
@@ -1357,8 +1356,7 @@ main{
 .footer{
     padding: 80px 20px 30px 20px;
     text-align: center;
-    background: rgb(255, 253, 245);
-
+    background-color: rgb(255, 253, 245);
 }
 
 .footer-container{
@@ -1521,8 +1519,9 @@ main{
     }
 
     .get-started{
-        margin: 80px 30px 30px 30px;
+        margin: 80px 30px 0px 30px;
         padding: 80px 130px;
+        padding-bottom: 30px;
     }
 
     .get-started .get-started-body h2{
@@ -1530,7 +1529,7 @@ main{
     }
     
     .footer{
-        margin: 80px 30px 30px 30px;
+        padding: 80px 30px 30px 30px;
     }
 
     .footer-container{
@@ -1652,6 +1651,15 @@ main{
         right: -3%;
         z-index: -1;    
     }
+
+    .footer-container .footer-links{
+        text-align: right;
+    }
+
+    .footer-container-1 .good,
+    .footer-container-1 .policy{
+        text-align: right;
+    }
 }
 
 @media only screen and (min-width: 701px){
@@ -1673,11 +1681,11 @@ main{
     }
 
     .enroll-btn{
-        left: 53px;
+        left: 50px;
     }
 
     .enroll-btn a .btn{
-        padding: 12px 35px;
+        padding: 10px 35px;
     }
 
     .intro-section{
@@ -1794,8 +1802,9 @@ main{
     }
 
     .get-started{
-        margin: 80px 30px 30px 30px;
+        margin: 80px 30px 0 30px;
         padding: 80px 150px;
+        padding-bottom: 30px;
     }
 
     .get-started .get-started-body h2{
@@ -1803,7 +1812,7 @@ main{
     }
 
     .footer{
-        margin: 80px 35px 30px 35px;
+        padding: 80px 35px 30px 35px;
     }
 
     .footer-container{
@@ -1924,7 +1933,7 @@ main{
     .enroll-container{
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: .3fr .4fr .2fr;
+        grid-template-rows: .3fr .4fr auto;
         border: 1px solid transparent;
     }
 
@@ -2053,8 +2062,9 @@ main{
     }
 
      .get-started{
-        margin: 80px 50px 30px 50px;
+        margin: 80px 50px 0 50px;
         padding: 80px 130px;
+        padding-bottom: 30px;
         background-position: right top, top 30% left 12%, left bottom, right bottom;
         background-size: 12%, 14%, 12%, 12% 24%;
     }
@@ -2073,7 +2083,7 @@ main{
     }
 
     .footer{
-        margin: 80px 50px 30px 50px;
+        padding: 80px 50px 30px 50px;
     }
 
     .footer-container{
@@ -2097,7 +2107,7 @@ main{
     .grid{
         display: grid;
         align-items: center;
-        grid-template-columns: .1fr 2.3fr .5fr;
+        grid-template-columns: .1fr 2.4fr .5fr;
         grid-template-rows: 1fr;
         grid-template-areas: 
         'header-hero nav-menu enroll-wrapper';
@@ -2123,7 +2133,7 @@ main{
     }
 
     .enroll-btn a .btn{
-        padding: 12px 35px;
+        padding: 10px 35px;
     }
 
     .nav-menu{
@@ -2141,7 +2151,7 @@ main{
     .nav-menu .nav-item{
         list-style-type: none;
         display: inline-block;
-        padding: 20px 15px 0;
+        padding: 20px 15.5px 0;
     }
 
     .nav-menu .nav-item .nav-link{
@@ -2219,7 +2229,6 @@ main{
     .intro-section-container .text-middle .enroll-btn-2 .wire-1{
         width: 15%;
         position: absolute;
-        /* right: 155px; */
         right: 30%;
         bottom: -109px;
     }
@@ -2238,7 +2247,7 @@ main{
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-areas: 
         'date-launched ingressive-logo read-more';
-        margin: 100px 15px 30px 15px;
+        margin: 150px 15px 30px 15px;
         padding-top: 10px;
     }
     
@@ -2260,7 +2269,7 @@ main{
     }
 
     .why-us{
-        margin: 40px 65px 120px 65px;
+        margin: 100px 65px 120px 65px;
         padding-top: 50px;
     }
 
@@ -2369,7 +2378,7 @@ main{
     }
 
     .stacks{
-        padding: 180px 65px 30px 65px;
+        padding: 100px 65px 30px 65px;
     }
 
     .stacks-body .stacks-intro-text h2{
@@ -2396,7 +2405,7 @@ main{
     .faqs{
         padding-left: 115px;
         padding-right: 115px;
-        padding-top: 180px;
+        padding-top: 160px;
     }
     
     .faq-body .faq-wire{
@@ -2439,8 +2448,9 @@ main{
     }
 
     .get-started{
-        margin: 80px 60px 30px 60px;
+        margin: 80px 60px 0 60px;
         padding: 80px 180px;
+        padding-bottom: 30px;
     }
 
     .get-started .circle-1{
@@ -2451,8 +2461,16 @@ main{
         width: 10%;
     }
 
+    .get-started .get-started-body p{
+        font-size: 18px;
+    }
+
+    .get-started .get-started-body h2{
+        font-size: 55px;
+    }
+
     .footer{
-        margin: 80px 60px 30px 60px;
+        padding: 80px 60px 30px 60px;
     }
 
     .footer-container{
@@ -2462,13 +2480,5 @@ main{
 
     .footer-container-1{
         grid-template-columns: 3.8fr .7fr 1fr;
-    }
-
-    .get-started .get-started-body p{
-        font-size: 18px;
-    }
-
-    .get-started .get-started-body h2{
-        font-size: 55px;
     }
 }
