@@ -16,7 +16,7 @@ header{
 .grid{
     display: grid;
     grid-template-columns: 1fr .3fr;
-    grid-template-rows: .7fr;
+    grid-template-rows: 1fr;
     grid-template-areas: 
     'header-hero talents-btn';
     padding-bottom: 5px;
@@ -38,11 +38,21 @@ header{
     height: 70%;
     color: white;
     background-color: #e7332b;
-    padding: 3px 38px;
-    font-size: 16px;
-    margin: 7px 23px 0 0;
+    margin: 10px 23px 0 0;
     border-bottom-right-radius: 8px;
     letter-spacing: 0.05em;
+}
+
+.talents-btn a .btn{
+    border: none;
+    outline: none;
+    width: max-content;
+    color: white;
+    background-color: transparent;
+    text-align: center;
+    font-size: 16px;
+    padding: 7px 24px 7px;
+    margin: 0 auto;
 }
 
 .nav-menu{
@@ -71,9 +81,7 @@ header{
 
 .vested-and-trusted{
     grid-area: vested-and-trusted;
-}
-
-.text-content{
+    margin-bottom: 30px;
 }
 
 .text-content h1{
@@ -88,30 +96,116 @@ header{
     color: #e7332b;
 }
 
-.text-content h1 .thick{
+.text-content h1 span .thick{
     position: absolute;
     top: 60%;
     right: 4%;
     width: 100px;
 }
 
-@media only screen and (min-width: 403px){
-    .thick{
+@media only screen and (min-width: 416px){
+    .text-content h1 span .thick{
         position: absolute;
-        right: 5%;
-        bottom: 0;
-        width: 100px;
+        right: 105px;
     }
 }
 
-@media only screen and (min-width: 434px){
-    .thick{
+@media only screen and (min-width: 446px){
+    .text-content h1 span .thick{
         position: absolute;
-        right: 30%;
-        bottom: 0;
-        width: 100px;
+        right: 125px;
     }
 }
+
+@media only screen and (min-width: 478px){
+    .text-content h1 span .thick{
+        position: absolute;
+        right: 140px;
+    }
+}
+
+@media only screen and (min-width: 519px){
+    .text-content h1 span .thick{
+        position: absolute;
+        right: 160px;
+    }
+}
+
+@media only screen and (min-width: 558px){
+    .text-content h1 span .thick{
+        position: absolute;
+        right: -10px;
+        top: 25px;
+    }
+}
+
+@media only screen and (min-width: 600px){
+    .text-content h1 span .thick{
+        position: absolute;
+        right: 170px;
+        top: 67px;
+    }
+}
+
+@media only screen and (min-width: 601px){
+    .text-content h1 span .thick{
+        position: absolute;
+        right: 140px;
+        top: 67px;
+    }
+}
+
+@media only screen and (min-width: 679px){
+    .text-content h1 span .thick{
+        position: absolute;
+        right: 160px;
+        top: 67px;
+    }
+}
+
+@media only screen and (min-width: 725px){
+    .text-content h1 span .thick{
+        position: absolute;
+        right: -15px;
+        top: 20px;
+    }
+}
+
+@media only screen and (min-width: 766px){
+    .text-content h1 span .thick{
+        right: 0;
+        top: 20px;
+    }
+}
+
+@media only screen and (min-width: 817px){
+    .text-content h1 span .thick{right: 28px;}
+}
+
+@media only screen and (min-width: 1039px){
+    .text-content h1 span .thick{right: 48px;}
+}
+
+@media only screen and (min-width: 1090px){
+    .text-content h1 span .thick{right: 67px;}
+}
+
+@media only screen and (min-width: 1200px){
+    .text-content h1 span .thick{right: -12px;}
+}
+
+@media only screen and (min-width: 1217px){
+    .text-content h1 span .thick{right: 2px;}
+}
+
+@media only screen and (min-width: 1252px){
+    .text-content h1 span .thick{right: 18px;}
+}
+
+@media only screen and (min-width: 1280px){
+    .text-content h1 span .thick{right: 30px;}
+}
+
 
 .text-content p{
     margin: 20px 4px 0 4px;
@@ -177,6 +271,17 @@ header{
 @media only screen and (min-width: 513px){
     .grid{
         grid-template-columns: 1.5fr 1fr;
+    }
+
+    .talents-btn a .btn{
+        border: none;
+        outline: none;
+        width: max-content;
+        color: white;
+        background-color: transparent;
+        text-align: center;
+        font-size: 16px;
+        padding: 10px 50px 10px;
     }
 
     .btn-red{
@@ -419,7 +524,7 @@ header{
 .microsoft:hover,
 .flutterwave:hover,
 .career-transitioners:hover{
-    transform: translateY(-15px);
+    transform: translateY(-17px);
 }
 
 .github,
@@ -438,8 +543,8 @@ header{
     background: #fff;
     border-radius: 8px;
     box-shadow: 0 8px 30px hsla(0,0%,48%,.16);
-    transition: .3s linear;
-    cursor: pointer;
+    transition: transform .6s ease;
+    -webkit-transform:.3s ease;
 }
 
 .reskill-americans{
@@ -658,13 +763,6 @@ header{
 
     .talent-intro-grid-container{
         margin: 0 50px;
-    }
-
-   .thick{
-        position: absolute;
-        right: 31%;
-        bottom: 0;
-        width: 100px;
     }
 
     .impact-section-one{
@@ -977,84 +1075,13 @@ header{
     }
 }
 
+
 @media only screen and (min-width: 805px){
     .thick{
         position: absolute;
         right: 25px;
         bottom: 0;
         width: 100px;
-    }
-}
-
-@media only screen and (min-width: 891px){
-    .grid{
-        display: grid;
-        grid-template-columns: .7fr 1.3fr .5fr;
-        grid-template-rows: 1fr;
-        grid-template-areas: 
-        'header-hero nav-menu talents-btn';
-        padding: 5px 70px 0px;
-    }
-
-    .header-hero{
-        padding: 15px 0;
-    }
-
-    .nav-menu{
-        display: block;
-        grid-area: nav-menu;
-        display: inline-block;
-        text-align: right;
-    }
-
-    .nav-menu .nav-item{
-        list-style-type: none;
-        display: inline-block;
-        padding: 20px 30px 0;
-    }
-
-    .nav-menu .nav-item .nav-link{
-        font-size: 17px;
-        padding-bottom: 20px;
-        padding-left: 5px;
-        padding-right: 5px;
-        color: #585858;
-        font-weight: 400;
-        display: block;
-    }
-
-    .nav-link.active{
-        border-bottom: 3px solid #e7332b;
-    }
-
-    .talent-intro-grid-container{
-        padding-top: 220px;
-        width: 60%;
-    }
-
-    .thick{
-        right: 0px;
-    }
-
-    .talents-btn a{
-        width: 160px;
-        float: right;
-    }
-
-    .card-container{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr .9fr .9fr;
-        grid-template-areas: 
-        'people mech'
-        'hand write'
-        'many many';
-        gap: 15px;
-        margin-bottom: 80px;
-    }
-    
-    .card{
-        padding: 50px 55px 40px;
     }
 }
 
@@ -1136,6 +1163,78 @@ header{
         'github microsoft reskill-americans flutterwave google career-transitioners';
         column-gap: 20px;
         text-align: center;
+    }
+}
+
+@media only screen and (min-width: 910px){
+    .grid{
+        display: grid;
+        grid-template-columns: .7fr 1.3fr .5fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: 
+        'header-hero nav-menu talents-btn';
+        padding: 5px 70px 0px;
+    }
+
+    .header-hero{
+        padding: 15px 0;
+    }
+
+    .nav-menu{
+        display: block;
+        grid-area: nav-menu;
+        display: inline-block;
+        text-align: right;
+    }
+
+    .nav-menu .nav-item{
+        list-style-type: none;
+        display: inline-block;
+        padding: 20px 30px 0;
+    }
+
+    .nav-menu .nav-item .nav-link{
+        font-size: 17px;
+        padding-bottom: 20px;
+        padding-left: 5px;
+        padding-right: 5px;
+        color: #585858;
+        font-weight: 400;
+        display: block;
+    }
+
+    .nav-menu .nav-item .nav-link.active{
+        border-bottom: 3px solid #e7332b;
+    }
+
+    .talent-intro-grid-container{
+        padding-top: 220px;
+        width: 60%;
+    }
+
+    .talents-btn a{
+        width: 160px;
+    }
+
+    .talents-btn a .btn{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .card-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr .9fr .9fr;
+        grid-template-areas: 
+        'people mech'
+        'hand write'
+        'many many';
+        gap: 15px;
+        margin-bottom: 80px;
+    }
+    
+    .card{
+        padding: 50px 55px 40px;
     }
 }
 
