@@ -7,7 +7,7 @@
 }
 
 .header-container{
-    position: fixed;
+    position: fixed;    
     background: rgb(255, 253, 245);
     z-index: 2;
     width: 100%;
@@ -551,6 +551,17 @@ main{
     left: 48%;
 }
 
+@media only screen and (min-width: 610px){
+    .enroll .enroll-body .wire-4{
+        width: 13%;
+        position: absolute;
+        top: 65px;
+        left: 0;
+        right: 100px;
+
+    }
+}
+
 .enroll-container{
     display: grid;
     grid-template-columns: 1fr;
@@ -609,6 +620,7 @@ main{
     color: #e7332b;
     box-shadow: rgb(0 0 0 / 20%) 0px 3px 1px -2px, rgb(0 0 0 / 14%) 0px 2px 2px 0px, rgb(0 0 0 / 12%) 0px 1px 5px 0px;
 }
+
 .enroll-container .enroll-image{
     grid-area: enroll-image;
 }
@@ -1349,7 +1361,7 @@ main{
 }
 
 .footer{
-    padding: 80px 20px 30px 20px;
+    padding: 80px 20px 30px 10px;
     text-align: center;
     background-color: rgb(255, 253, 245);
 }
@@ -1416,6 +1428,16 @@ main{
 .footer-container-1 .copyright hr{
     margin-bottom: 16px;
     border-color: rgba(0, 0, 0, 0.82);
+}
+
+.attribution{
+    font-size: 16px;
+   line-height: 24px;
+   font-weight: bold;
+   margin-top: 32px;
+   color: #e7332b;
+   padding-bottom: 10px;
+   text-align: center;
 }
 
 @media only screen and (min-width: 600px){
@@ -2475,5 +2497,15 @@ main{
 
     .footer-container-1{
         grid-template-columns: 3.8fr .7fr 1fr;
+    }
+}
+
+@media only screen and (min-width: 1440px){
+    .grid-1{
+        width: 1300px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 0 ;
+        padding-right: 0;
     }
 }
