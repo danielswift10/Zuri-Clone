@@ -359,7 +359,7 @@ a:hover{
         'footer-logo links address follow-us-links';
         gap: 0px;
         text-align: left;
-        padding-left: 35px;
+        padding-left: 55px;
         padding-right: 35px;
     }
 
@@ -408,7 +408,6 @@ a:hover{
 }
 
 @media only screen and (min-width: 992px){
-
     body{
         overflow-x: hidden;
     }
@@ -444,10 +443,10 @@ a:hover{
     }
 }
 
-
-
-
-
-
-
-
+@media only screen and (min-width: 1440px){
+    .grid{
+        width: 1400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
