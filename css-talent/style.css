@@ -302,12 +302,14 @@ header{
     width: 100%;
 }
 
-.impact-section-one{
-    margin-top: 100px;
-    background-color: hsla(3, 80%, 54%, 0.15);
+.imp{
     background-image: url("../images-talent/bg.png");
     background-size: cover;
     background-repeat: no-repeat;
+}
+.impact-section-one{
+    margin-top: 100px;
+    background-color: hsla(3, 80%, 54%, 0.15);
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: .2fr .2fr;
@@ -746,6 +748,16 @@ header{
     margin: 0 auto 20px;
     border-width: 0px 0px thin;
     border-color: gray;
+}
+
+.attribution{
+     font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+    margin-top: 32px;
+    color: #fff;
+    padding-bottom: 30px;
+    text-align: center;
 }
 
 @media only screen and (min-width: 577px){
@@ -1454,5 +1466,15 @@ header{
         gap: 15px;
         padding-top: 30px;
         text-align: left;
+    }
+}
+
+@media only screen and (min-width: 1440px){
+    .grid-1{
+        width: 1300px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 0 ;   
+        padding-right: 0;
     }
 }
